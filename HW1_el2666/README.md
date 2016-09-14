@@ -1,1 +1,7 @@
-# PUI2016_el2666
+# Homework 1
+
+I wanted to leave a comment here also on my fork assignment. Instead of a neighbor, I did it with my older account in github - github name: levie481 and the existing repository that was there called "hello-world" (the one that I forked). Just wanted to leave it here for the information.
+
+I created alias (pui2016) and environmental variable ($PUI2016) for the path to my folder (NYU netid = el2666):
+/home/cusp/el2666
+
