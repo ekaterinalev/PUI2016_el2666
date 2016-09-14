@@ -7,10 +7,12 @@ I created alias (pui2016) and environmental variable ($PUI2016) for the path to 
 
 Here are the screenshots:
 
-Screenshot 1:
+**Screenshot 1**:
+
 ![alias_ev](https://github.com/ekaterinalev/PUI2016_el2666/blob/master/HW1_el2666/screenshot_1.jpg)
 
-Screenshot 2:
+**Screenshot 2**:
+
 ![pwd](https://github.com/ekaterinalev/PUI2016_el2666/blob/master/HW1_el2666/screenshot_2.jpg)
 
 Thank you -
