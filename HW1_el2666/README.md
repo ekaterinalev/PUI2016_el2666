@@ -8,5 +8,5 @@ I created alias (pui2016) and environmental variable ($PUI2016) for the path to 
 Here are the screenshots:
 
 Screenshot 1:
-![alias_ev](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alias_ev](https://github.com/ekaterinalev/PUI2016_el2666/blob/master/HW1_el2666/screenshot_1.jpg)
 
