@@ -5,3 +5,8 @@ I wanted to leave a comment here also on my fork assignment. Instead of a neighb
 I created alias (pui2016) and environmental variable ($PUI2016) for the path to my folder (NYU netid = el2666):
 /home/cusp/el2666
 
+Here are the screenshots:
+
+Screenshot 1:
+![alias_ev](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+
