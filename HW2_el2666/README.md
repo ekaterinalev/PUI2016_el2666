@@ -1,2 +1,1 @@
-This is homework 2
-As a reference used this source: https://www.youtube.com/watch?v=pxofwuWTs7c 
+For Assignment 1 and 2, as a reference used this source: https://www.youtube.com/watch?v=pxofwuWTs7c 
