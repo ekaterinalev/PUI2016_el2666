@@ -1,3 +1,10 @@
+| **Statistical Analyses	|  IV(s)  |  IV type(s) |  DV(s)  |  DV type(s)  |  Control Var | Control Var type  | Question to be answered | _H0_ | alpha | link to paper **| 
+|:----------:|:----------|:------------|:-------------|:-------------|:------------|:------------- |:------------------|:----:|:-------:|:-------|
+Chi square	| 1, # of mutations | categorical | 1, family size| categorical | 0 | n/a | What is the estimate cell mutation rate per family size	 | # of mutations is independent of family size | 0.05 | [Efficient Estimation of Mutation Rates](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0062593) |
+  |||||||||
+
+
+
 | Statistical   |               | IV         |           | DV          | Control | Control Var | Question         |                    |       | link to                           |
   Analysis      | IV(s)         | type(s)    | DV(s)     | types       | Var     | type        | to be answered   |       H0           | alpha | paper                             |
 | ------------- |:-------------:| ----------:|----------:|-------------|--------:|------------:|---------------:  |-------------------:|------:|-----------------------------:     |
