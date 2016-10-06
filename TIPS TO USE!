@@ -1,0 +1,7 @@
+drop:
+df.drop(['value'], axis=1, inplace=True)
+
+dropping NaN values:
+df['value'].dropna(inplace= True)
+df['value'].dropna(inplace= True)
+
