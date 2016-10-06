@@ -14,3 +14,6 @@ axF = df.ageF.groupby(pd.cut(df.ageF, bins)).agg([count_nonzero]).plot(kind='bar
                                                                 legend=False)
 axF.set_title("female riders")
 
+iterate through rows (e.g. every 200):
+df.iloc[::200]
+
