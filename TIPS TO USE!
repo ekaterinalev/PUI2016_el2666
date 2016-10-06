@@ -5,3 +5,12 @@ dropping NaN values:
 df['value'].dropna(inplace= True)
 df['value'].dropna(inplace= True)
 
+plotting histogramswith pandas:
+bins = np.arange(10, 99, 5)
+axM = df.ageM.groupby(pd.cut(df.ageM, bins)).agg([count_nonzero]).plot(kind='bar', 
+                                                                legend=False)
+axM.set_title("male riders")
+axF = df.ageF.groupby(pd.cut(df.ageF, bins)).agg([count_nonzero]).plot(kind='bar',
+                                                                legend=False)
+axF.set_title("female riders")
+
