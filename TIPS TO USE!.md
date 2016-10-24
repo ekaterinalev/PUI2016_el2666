@@ -1,11 +1,14 @@
 **read url:**
+
 data=pd.read_csv("/home/cusp/el2666/Applied_Data_Science/data_hw_3_4.csv")
 data.head()
 
 **move data:**
+
 os.system("mv data.csv " + os.getenv("PUIDATA"))
 
 **import from CUSP Data Facility:**
+
 import os 
 import pandas as pd
 DFDATA = os.getenv("DFDATA")
