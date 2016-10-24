@@ -1,11 +1,11 @@
-# **read url:**
+**read url:**
 data=pd.read_csv("/home/cusp/el2666/Applied_Data_Science/data_hw_3_4.csv")
 data.head()
 
-# **move data:**
+**move data:**
 os.system("mv data.csv " + os.getenv("PUIDATA"))
 
-import from CUSP Data Facility:
+**import from CUSP Data Facility:**
 import os 
 import pandas as pd
 DFDATA = os.getenv("DFDATA")
@@ -15,7 +15,7 @@ DFDATA = "/gws/open/NYCOpenData/nycopendata/data/"
 df_gas = pd.read_csv(DFDATA + "/uedp-fegm/1414245967/uedp-fegm")
 df_gas.columns
 
-loading json:
+**loading json:**
 import pylab as pl
 import json
 import urllib.request as ulr
@@ -29,15 +29,15 @@ data = json.loads(data)
 more about json plotting and accessing:
 https://github.com/fedhere/PUI2016_fb55/blob/master/Lab2_fb55/APIreadingJson.py.ipynb
 
-#download, move data to $PUIDATA, and read data in 
+**download, move data to $PUIDATA, and read data in**
 !curl -O https://data.cityofnewyork.us/api/views/rgfe-8y2z/rows.csv
 cmd = "mv rows.csv " + os.getenv("PUIDATA")
 
-unzip:
+**unzip:**
 !curl -O http://www1.nyc.gov/assets/planning/download/zip/data-maps/open-data/mn_mappluto_16v1.zip
 os.system("unzip mn_mappluto_16v1.zip")
 
-rename:
+**rename:**
 nrg.rename(columns={'NYC Borough, Block, and Lot (BBL)':'BBL'}, 
            inplace=True)
 merge:
