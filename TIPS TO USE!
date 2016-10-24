@@ -179,3 +179,43 @@ plt.ylabel('Number', fontsize=14)
 plt.plot(x,y)
 plt.fill_between(x, ymax, ymin, alpha=0.3)
 plt.show()
+
+statistical tests:
+p-value: For typical analysis, using the standard α = 0.05 cutoff, the null hypothesis is rejected when p < .05 and not rejected when p > .05. The p-value does not in itself support reasoning about the probabilities of hypotheses but is only a tool for deciding whether to reject the null hypothesis.
+Student's t-test of two independent samples: It can be used to determine if two sets of data are significantly different from each other.
+>>> stats.ttest_ind(rvs1,rvs2)
+(0.26833823296239279, 0.78849443369564776)
+
+reference for different stat tests:
+https://docs.scipy.org/doc/scipy/reference/stats.html
+
+chi-square of goodness of fit:
+http://hamelg.blogspot.com/2015/11/python-for-data-analysis-part-25-chi.html
+
+df.describe()
+describe() function would provide count, mean, standard deviation (std), min, quartiles and max in its output 
+
+distribution analysis - histogram:
+df['ApplicantIncome'].hist(bins=50)
+
+stacked chart:
+temp3 = pd.crosstab(df['Credit_History'], df['Loan_Status'])
+temp3.plot(kind='bar', stacked=True, color=['red','blue'], grid=False)
+
+check missing values:
+df.apply(lambda x: sum(x.isnull()),axis=0) 
+ 
+fill in missing values - by providing the mean:
+df['LoanAmount'].fillna(df['LoanAmount'].mean(), inplace=True)
+
+log transformation to nullify effect of outliers:
+df['LoanAmount_log'].hist(bins=20)
+
+boxplot - outliers:
+import matplotlib.pyplot as plt
+%matplotlib inline
+data.boxplot(column="ApplicantIncome",by="Loan_Status")
+
+histogram:
+data.hist(column="ApplicantIncome",by="Loan_Status",bins=30)
+
