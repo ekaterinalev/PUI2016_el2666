@@ -1,3 +1,10 @@
+read url:
+data=pd.read_csv("/home/cusp/el2666/Applied_Data_Science/data_hw_3_4.csv")
+data.head()
+
+move data:
+os.system("mv data.csv " + os.getenv("PUIDATA"))
+
 drop:
 df.drop(['value'], axis=1, inplace=True)
 
