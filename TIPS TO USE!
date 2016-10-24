@@ -24,3 +24,19 @@ axF.set_title("female riders")
 iterate through rows (e.g. every 200):
 df.iloc[::200]
 
+plotting linear regression:
+import pandas as pd
+import numpy as np
+import statsmodels.formula.api as smf
+import matplotlib.pylab as plt
+%matplotlib inline
+data=pd.read_csv("/home/cusp/el2666/Applied_Data_Science/data_hw_3_4.csv")
+data.head()
+lm = smf.ols(formula='Y ~ x1 + x2 + x3 + x4 + x5 + x6 + x7 + x8 + x9 + x10 + x11 + x12 + x13 + x14 + x15', data = data).fit()
+print(lm.summary())
+y_fit = lm.predict(data)  
+plt.figure(figsize = (8,6))
+plt.plot(y_fit,data.Y,'or', markersize = 8) 
+plt.plot(y_fit,y_fit,'--b', linewidth = 1)
+plt.xlabel('Prediction', fontsize = 16)
+plt.ylabel('Observation', fontsize = 16)
