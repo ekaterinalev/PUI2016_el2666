@@ -222,3 +222,5 @@ data.boxplot(column="ApplicantIncome",by="Loan_Status")
 **histogram:**
 data.hist(column="ApplicantIncome",by="Loan_Status",bins=30)
 
+**swap axes**
+mtarides = mtarides.swapaxes(0,2).swapaxes(1,3)
