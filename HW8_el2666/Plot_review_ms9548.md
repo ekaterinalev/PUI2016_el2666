@@ -1,1 +1,1 @@
-![Plot](C:/Downloads/plot_review.jpg)
+![Plot](C:\Users\Katya Levitskaya\Downloads\plot_review.jpg)
