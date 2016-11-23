@@ -1,3 +1,15 @@
+**group by and count**
+df.groupby('value').count()
+
+**create rank**
+ranking['Rank'] = ranking['Complaint Type'].rank(ascending=1)
+
+**sort in ascending or descending order**
+ranking.sort(['Rank'], ascending=True/1 or False)
+
+**check how many values**
+len(df['value'])
+
 **read url:**
 
 data=pd.read_csv("/home/cusp/el2666/Applied_Data_Science/data_hw_3_4.csv")
