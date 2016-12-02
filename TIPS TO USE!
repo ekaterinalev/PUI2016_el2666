@@ -1,3 +1,29 @@
+**SQL**
+***sort data by column***
+SELECT column_name
+FROM table_name
+
+***only check trips with value <= or***
+WHERE column_name <= 180
+
+***ascending order and view head or tail - top/last 10 records***
+ORDER BY column_name ASC/DESC
+LIMIT 10
+
+***list all unique values***
+SELECT DISTINCT column_name 
+FROM table_name
+
+***count the number of trips***
+SELECT COUNT (DISTINCT column_name) 
+FROM table_name
+WHERE column_name <= 180
+
+***find the average/min/max trip duration***
+SELECT AVG/MIN/MAX (DISTINCT column_name) 
+FROM table_name
+WHERE column_name <= 180
+
 **group by and count**
 df.groupby('value').count()
 
